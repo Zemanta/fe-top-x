@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html
+    class="h-full"
+    lang="en"
+    x-data="{
+        darkMode: localStorage.getItem('darkMode') || window.matchMedia('(prefers-color-scheme: dark)').matches || 'light'
+    }"
+    x-init="$watch('darkMode', val => localStorage.setItem('darkMode', val))"
+    x-bind:class="{'dark': darkMode === 'dark' }"
+>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.12.0/dist/cdn.min.js"></script>
+        <link href="output.css" rel="stylesheet" />
+        <title>Frontend Top X</title>
+    </head>
+    <script>
+        document.addEventListener('alpine:init', () => {
+            Alpine.store('topX', {
+                data: [],
+                currentPresentation: {
+                    date: '',
+                    articles: [],
+                },
+                currentPage: Number(new URLSearchParams(window.location.search).get('page')) || 0,
+                async init() {
+                    this.data = await (await fetch('https://janholas.github.io/topx/topx.json')).json();
+                    this.setCurrentPresentation();
+                },
+                nextPage() {
+                    this.currentPage = Math.max(this.currentPage - 1, 0);
+                    this.setCurrentPresentation();
+                    this.navigate(this.currentPage);
+                },
+                hasNextPage() {
+                    return this.currentPage !== 0;
+                },
+                previousPage() {
+                    this.currentPage = Math.min(this.currentPage + 1, this.data.length - 1);
+                    this.setCurrentPresentation();
+                    this.navigate(this.currentPage);
+                },
+                hasPreviousPage() {
+                    return this.currentPage !== this.data.length - 1;
+                },
+                navigate(destinationPage) {
+                    history.pushState({page: destinationPage}, 'Frontend Top X', `?page=${destinationPage}`);
+                },
+                setCurrentPresentation() {
+                    if (this.data.length) {
+                        const currentPresentation = this.data[this.data.length - this.currentPage - 1];
+                        currentPresentation.articles = currentPresentation.articles.map(article => {
+                            return {
+                                ...article,
+                                isThumbnailLoaded: false,
+                            };
+                        });
+                        this.currentPresentation = currentPresentation;
+                    }
+                },
+            });
+        });
+    </script>
+    <body
+        class="h-full bg-gradient-to-b from-slate-50 to-slate-300 dark:from-slate-700 dark:to-slate-900 bg-no-repeat bg-fixed text-gray-600 body-font"
+    >
+        <template x-data x-if="$store.topX.currentPresentation.articles.length ">
+            <div class="h-full py-16 mx-auto fill-white bg-amelia dark:bg-amelia-dark lg:bg-50% bg-no-repeat bg-top">
+                <section class="flex flex-col text-center w-full">
+                    <h1
+                        class="text-5xl md:text-6xl font-medium title-font mb-4 text-ob-orange uppercase"
+                        x-data
+                        x-text="`Frontend Top ${$store.topX.currentPresentation.articles.length}`"
+                    ></h1>
+                    <div class="text-xl flex flex-col sm:flex-row mx-auto leading-relaxed text-base">
+                        <div class="md:w-48">
+                            <a
+                                class="cursor-pointer text-ob-orange"
+                                x-data
+                                x-show="$store.topX.hasPreviousPage()"
+                                x-on:click="$store.topX.previousPage()"
+                                >↤ Previous</a
+                            >
+                        </div>
+                        <div
+                            class="text-3xl mx-10 dark:text-neutral-200"
+                            x-data
+                            x-text="$store.topX.currentPresentation?.title"
+                        ></div>
+                        <div class="md:w-48">
+                            <a
+                                class="cursor-pointer text-ob-orange"
+                                x-data
+                                x-show="$store.topX.hasNextPage()"
+                                x-on:click="$store.topX.nextPage()"
+                                >Next ↦</a
+                            >
+                        </div>
+                    </div>
+                </section>
+                <section class="flex items-center w-full">
+                    <div class="relative items-center w-full px-5 py-6 mx-auto md:px-12 xl:px-20 max-w-7xl">
+                        <div class="grid auto-rows-fr grid-cols-1 gap-6 lg:gap-12 py-12 md:grid-cols-3 lg:grid-cols-3">
+                            <template x-data x-for="article in $store.topX.currentPresentation?.articles">
+                                <a x-bind:href="article.url" target="_blank">
+                                    <figure>
+                                        <template x-if="!article.isThumbnailLoaded">
+                                            <div
+                                                class="bg-stripes h-56 lg:h-72 object-cover w-full rounded-lg shadow-lg hover:shadow-2xl"
+                                            ></div>
+                                        </template>
+                                        <img
+                                            class="h-56 lg:h-72 object-cover w-full rounded-lg shadow-lg hover:shadow-2xl"
+                                            x-data
+                                            x-show="article.isThumbnailLoaded"
+                                            x-bind:src="article.thumbnailUrl"
+                                            x-on:load="article.isThumbnailLoaded = true"
+                                            alt="article.title"
+                                        />
+                                        <p
+                                            class="m-3 text-md font-medium leading-6 text-black dark:text-neutral-200"
+                                            x-text="article.title"
+                                        ></p>
+                                    </figure>
+                                </a>
+                            </template>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </template>
+
+        <div x-cloak class="absolute top-5 right-5">
+            <button x-show="darkMode === 'dark'" x-on:click="darkMode = 'light'">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    x-bind:class="{'border-2 border-red/50': darkMode === 'light'}"
+                    class="w-6 h-6 p-1 text-gray-700 transition rounded-full cursor-pointer bg-gray-50 hover:bg-gray-200"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+                    />
+                </svg>
+                <span class="sr-only">light</span>
+            </button>
+
+            <button x-show="darkMode === 'light'" x-on:click="darkMode = 'dark'">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    x-bind:class="{'border-2 border-red/50': darkMode === 'dark'}"
+                    class="w-6 h-6 p-1 text-gray-100 transition bg-gray-700 rounded-full cursor-pointer hover:bg-gray-600"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                >
+                    <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+                </svg>
+                <span class="sr-only">dark</span>
+            </button>
+        </div>
+    </body>
+</html>

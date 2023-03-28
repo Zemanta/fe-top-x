@@ -1,0 +1,220 @@
+[
+    {
+        "title": "13.07.22",
+        "articles": [
+            {
+                "title": "Lesser-Known And Underused CSS Features In 2022",
+                "thumbnailUrl": "https://media-exp1.licdn.com/dms/image/sync/C5627AQFkJnmaZwgsmw/articleshare-shrink_1280_800/0/1657253937292?e=1658232000&v=beta&t=HzbCPcgccjkJnEAJUQeXVAXzajULfBrvOFzXifRfPxs",
+                "url": "https://www.smashingmagazine.com/2022/05/lesser-known-underused-css-features-2022/"
+            },
+            {
+                "title": "Angular v14 is now available!",
+                "thumbnailUrl": "https://www.mindinventory.com/blog/wp-content/uploads/2022/06/angular-14.png",
+                "url": "https://blog.angular.io/angular-v14-is-now-available-391a6db736af"
+            },
+            {
+                "title": "Run Third-Party Scripts From A Web Worker",
+                "thumbnailUrl": "https://user-images.githubusercontent.com/452425/134568488-f36f4640-9ada-4a78-a969-2b8315cf7f47.png",
+                "url": "https://partytown.builder.io/"
+            },
+            {
+                "title": "Angular Practices in 2022 that No One Talks About",
+                "thumbnailUrl": "https://miro.medium.com/max/984/1*Eo9loH6iEkuDxgjLxGI5Sg.png",
+                "url": "https://javascript.plainenglish.io/angular-practices-2022-that-no-one-talks-about-3fe483bf4bfc"
+            },
+            {
+                "title": "Simplify Your Color Palette With CSS Color-Mix()",
+                "thumbnailUrl": "https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/57b9844c-e3aa-48e2-9d72-3938dbf553d0/simplify-color-palette-css-color-mix-sharing-card.jpg",
+                "url": "https://www.smashingmagazine.com/2022/06/simplify-color-palette-css-color-mix/"
+            }
+        ]
+    },
+    {
+        "title": "22.09.22",
+        "articles": [
+            {
+                "title": "Build a lighthouse, a pure CSS game",
+                "thumbnailUrl": "https://i.imgur.com/h2yhwm9.png",
+                "url": "https://codepen.io/ivorjetski/pen/OJXbvdL"
+            },
+            {
+                "title": "CSS Variable secrets",
+                "thumbnailUrl": "https://i.ytimg.com/vi/ZuZizqDF4q8/mqdefault.jpg",
+                "url": "https://www.youtube.com/watch?v=ZuZizqDF4q8"
+            },
+            {
+                "title": "Defensive CSS (tips)",
+                "thumbnailUrl": "https://defensivecss.dev/img/social/defensive-css.png?100",
+                "url": "https://defensivecss.dev/tips"
+            },
+            {
+                "title": "What The Heck, z-index??",
+                "thumbnailUrl": "https://www.joshwcomeau.com/_next/image/?url=%2Fimages%2Fstacking-contexts%2Fcat-layers.jpg&w=384&q=75",
+                "url": "https://www.joshwcomeau.com/css/stacking-contexts/"
+            },
+            {
+                "title": "10 best practices to containerize Node.js web applications with Docker",
+                "thumbnailUrl": "https://miro.medium.com/max/1400/1*Njm6sMNgKzhyVhPzwf7g0g.png",
+                "url": "https://snyk.io/blog/10-best-practices-to-containerize-nodejs-web-applications-with-docker/"
+            }
+        ]
+    },
+
+    {
+        "title": "16.11.22",
+        "articles": [
+            {
+                "title": "Understanding Layout Algorithms",
+                "thumbnailUrl": "https://www.joshwcomeau.com/images/the-importance-of-learning-css/css-for-js-banner.png",
+                "url": "https://www.joshwcomeau.com/css/understanding-layout-algorithms/"
+            },
+            {
+                "title": "Convert NgModule Angular app to Standalone Component",
+                "thumbnailUrl": "https://dev.to/social_previews/article/1108195.png",
+                "url": "https://dev.to/ussdlover/convert-angular-app-to-standalone-component-angular-app-53lc"
+            },
+            {
+                "title": "Angular Standalone Components and Their Impact on Modularity",
+                "thumbnailUrl": "https://miro.medium.com/max/1400/1*EDdHfn9YAD67xhqlSrhH8A.png",
+                "url": "https://betterprogramming.pub/angular-standalone-components-and-their-impact-on-modularity-e186806aa28a"
+            },
+            {
+                "title": "Type-level TypeScript",
+                "thumbnailUrl": "https://user-images.githubusercontent.com/9265418/194100467-b457d9da-0771-40b2-a822-786b1c150b5a.png",
+                "url": "https://type-level-typescript.com/"
+            },
+            {
+                "title": "JS13K 2022 Winners",
+                "thumbnailUrl": "https://github.blog/wp-content/uploads/2022/10/js13k.png?resize=1200%2C630",
+                "url": "https://github.blog/2022-10-06-js13k-2022-winners/"
+            }
+        ]
+    },
+
+    {
+        "title": "14.12.22",
+        "articles": [
+            {
+                "title": "What is Edge Computing?",
+                "thumbnailUrl": "https://miro.medium.com/max/600/0*AiGZJD54n6hTX8z_",
+                "url": "https://medium.com/tdsynnex/what-is-edge-computing-8d94a1222023"
+            },
+            {
+                "title": "Functional programming in Javascript",
+                "thumbnailUrl": "https://i.ytimg.com/vi/XGNYDjyD6G8/maxresdefault.jpg",
+                "url": "https://www.youtube.com/watch?v=XGNYDjyD6G8"
+            },
+            {
+                "title": "A fun way to learn JavaScript",
+                "thumbnailUrl": "https://miro.medium.com/max/1039/1*7tFc5pJsDMxcV21HAzqLng@2x.jpeg",
+                "url": "https://medium.com/@dhakresumitra5/a-fun-way-to-learn-javascript-c133a611df7b"
+            },
+            {
+                "title": "Variable Fonts and the Future of Web Design",
+                "thumbnailUrl": "https://pbs.twimg.com/profile_images/659732196496928768/ByIcwqVt_400x400.png",
+                "url": "https://www.youtube.com/watch?v=luAqYCd_TC8&ab_channel=dotconferences"
+            },
+            {
+                "title": "Service Workies",
+                "thumbnailUrl": "https://serviceworkies.com/kolohe.jpg",
+                "url": "https://serviceworkies.com/"
+            }
+        ]
+    },
+    {
+        "title": "22.02.23",
+        "articles": [
+            {
+                "title": "Introducing ChatCody: the Code Review Assistant GitHub Bot",
+                "thumbnailUrl": "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*4PM9EKWIW56TYXF36LwMQw.png",
+                "url": "https://betterprogramming.pub/revolutionizing-code-reviews-introducing-chatcody-the-github-bot-that-boosts-team-productivity-6f45090d2b6b"
+            },
+            {
+                "title": "Server-Side Rendering: How Resumable Beats Hydration",
+                "thumbnailUrl": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*q4lvWPYrF2Uc2hhZpM7tqQ.png",
+                "url": "https://betterprogramming.pub/how-resumable-beats-hydration-f845bfebc31e"
+            },
+            {
+                "title": "How to Improve UX With Route Reuse Strategy in Angular",
+                "thumbnailUrl": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*V8T16V0A0aXhJsqYp-qBEw.png",
+                "url": "https://javascript.plainenglish.io/angular-route-reuse-strategy-94b75d62bcc1"
+            },
+            {
+                "title": "The large, small, and dynamic viewport units",
+                "thumbnailUrl": "https://web-dev.imgix.net/image/AeNB0cHNDkYPUYzDuv8gInYA9rY2/3ZKf0cQWs0eESL5WZzb0.png?auto=format&w=1600",
+                "url": "https://web.dev/viewport-units/"
+            },
+            {
+                "title": "State of JS 2022",
+                "thumbnailUrl": "https://res.cloudinary.com/practicaldev/image/fetch/s--Yq2KpB6t--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/irc6lp31eh4jblvgdu19.png",
+                "url": "https://2022.stateofjs.com/en-US/"
+            },
+            {
+                "title": "Convert PNG to SVG",
+                "thumbnailUrl": "https://vectormaker.co/artwork.svg",
+                "url": "https://vectormaker.co/"
+            }
+        ]
+    },
+    {
+        "title": "08.03.23",
+        "articles": [
+            {
+                "title": "Try out CSS nesting today",
+                "thumbnailUrl": "https://webkit.org/wp-content/themes/webkit/images/webkit.svg",
+                "url": "https://webkit.org/blog/13813/try-css-nesting-today-in-safari-technology-preview/"
+            },
+            {
+                "title": "Interactive SVG Reference",
+                "thumbnailUrl": "https://i.imgur.com/CmQCSiQ.jpg",
+                "url": "https://fffuel.co/sssvg/"
+            },
+            {
+                "title": "Deep Cloning Objects in JavaScript, the Modern Way",
+                "thumbnailUrl": "https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F03f2036674724006ae64d9bc4d07ab6d",
+                "url": "https://www.builder.io/blog/structured-clone"
+            },
+            {
+                "title": "You've Got Options for Removing Event Listeners",
+                "thumbnailUrl": "https://pbs.twimg.com/media/FoS4M5LX0AEx3ab.jpg",
+                "url": "https://www.macarthur.me/posts/options-for-removing-event-listeners"
+            },
+            {
+                "title": "Color formats in CSS",
+                "thumbnailUrl": "https://www.joshwcomeau.com/images/the-importance-of-learning-css/css-for-js-banner.png",
+                "url": "https://www.joshwcomeau.com/css/color-formats/"
+            }
+        ]
+    },
+    {
+        "title": "22.03.23",
+        "articles": [
+          {
+            "title": "Experiments with the JavaScript Garbage Collector",
+            "thumbnailUrl": "https://res.cloudinary.com/practicaldev/image/fetch/s--cF5BvQwe--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kb3uh3n6ib9t2tjlnjer.png",
+            "url": "https://dev.to/codux/experiments-with-the-javascript-garbage-collector-2ae3"
+          },
+          {
+            "title": "All JavaScript and TypeScript Features of the last 3 years",
+            "thumbnailUrl": "https://miro.medium.com/v2/resize:fit:1024/format:webp/1*2yo_1MdBQE1pOYWV4ueyfQ.png",
+            "url": "https://betterprogramming.pub/all-javascript-and-typescript-features-of-the-last-3-years-629c57e73e42"
+          },
+          {
+            "title": "Announcing TypeScript 5.0",
+            "thumbnailUrl": "https://devblogs.microsoft.com/typescript/wp-content/uploads/sites/11/2023/03/5-0-feature-image-square-bounds-1.png",
+            "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-5-0/#case-insensitive-import-sorting-in-editors"
+          },
+          {
+            "title": "Create React App is dead! What are the alternatives?",
+            "thumbnailUrl": "https://www.crocoder.dev/assets/create-react-app-is-dead-what-are-the-alternatives.840ea617.webp",
+            "url": "https://www.crocoder.dev/blog/create-react-app-is-dead-what-are-the-alternatives/"
+          },
+          {
+            "title": "Your new, lightweight, JavaScript framework.",
+            "thumbnailUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOAAAADgCAMAAAAt85rTAAAAYFBMVEUuNECKwM/Y3ukqLTmNxdRZdoPe5O8sMDxefovX3ehce4mEipaIvcyxz9vT2eRQaHVudH/O1N8wOEQkIzAWHix9go0jKTdTbXqHu8p1eoWDiZQqLDmMkp1HW2deY2621OEj72IYAAAEEElEQVR4nO3ci1baQBCAYSCEFaRobSmKtr7/WxbQiRhz2cvMbjzn/x4gxznm57K7YTYDAAAAAAAAAAAAAAAAAAAAAAAAAAAAvh/3rS4b4e+DxVUf/llcNYKr5zf6E7qHl8WxUr9sBHd4nG9v9K/7slvtniYwYXWa72TzS/eyv2/Xi8Vi9/RH97LhTvfnxXKje93b1eJsvS/7P3SuXs7fKXZ46m+9eLPal30t3WxlPtUOX3YLsTvqXTZYdfiYT7HDt/6aCct1WNXzT7Q6fO9PrPeFJnR3y3mLQodX/YnVfZlXmvqxPZ9Kh1f9iZ8lOnyut1/mU+jwc39Nh/nv0uebL/enSoet/pq79CXzhB39KXTY0V+hDl1HfxoddvTXdJjzM83zXf98CR1299dMeJ/tLu3rL7XDnv7yd1gPzxfX4UB/zYR7g2E6/pLu94fkDgf6E7sc34Cr4f5iOxzuL2OH1fj9eRHa4Uh/H3ep7YRudvAa7yygQ4/+xPrJcLzTX7IZ70+EdOjRn9gdDb8B+7y+XPHt0K+/ZkK7d3zf/oRvh579CbMOnX9/wqPDgP7E2mY10R283h8+8ekwoD9hsl469Pl6wFiHYf01E+p36DZh/YmxDgP7E6tb5Qld4OvLlYEOI/prJtT9H8b0J4Y6jOhPqHZYJcw37+8wrr+PCdXeLVw9PsSQvg4j+xNa+xYuoT/R0WFCf0Jr3yLg82efrg4T+hMq+xat/YdY7Q7T+msmTO+wvf8Qq91hYn8ied9iYP0z1FWHCv2J1PXSuM9nna47VOhPJO1b9Ow/xJIOdfoTCfsWY+ufoaRDpf5E9HqpYn/i1KFif82EcR1Gfj8adO5QsT8Rt2+R9vmzT33U/v9dJoxZa7MZcPlqMF/cgBa36NkP/X9h5NaawYvM24Ta80W/2Wu/TRhNmLCtpvxGL7aqE6YdUJh+h4lHTCbfYfLhBK2vS0YTKhzzUvrC26bToc7Ck8KSRReFDpWOWiosOnVPmDqf2mHZ1GVDowkVjzsnLvz2SetQ9aBsytL9kIQOlbfQJteh8uZL/PaZ0YTq22dm357iOjQ5iDChDo0e+Yk4hOA3Yeh8RocQwo+RGE1oeJwr8CCQr7AODQ8ChR3lChHQoelRrpPSHRofxiveofVxypn3gdhQfh1mOZhu9Erj02GWI80zn0PpcROO359Zxiu2Xprx8Z6RB0NiDXeY8cGQIvsWWR/tKbBemv0hycwdZn+8LvO+RYEHJGc59y2KPOKascNSDynn2rco9ph5pn2Lsj/YYf/9sOhPPWRYLy39Yx3W+xalf25lZrxvMYEfzDFdL53ETx5dOjTxqr7/EMvd1SbuJ/PDaq6yUXouAAAAAAAAAAAAAAAAAAAAAAAAAAAAIMJ/WEdbnZeReMgAAAAASUVORK5CYII=",
+            "url": "https://alpinejs.dev/"
+          }
+        ]
+      }
+      
+]
