@@ -215,6 +215,36 @@
             "url": "https://alpinejs.dev/"
           }
         ]
-      }
+    },
+    {
+        "title": "31.05.23",
+        "articles": [
+            {
+                "title": "Angular Signals (The future of Angular)",
+                "thumbnailUrl": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*tzPWUob1ytAskHKV6acCeA.jpeg",
+                "url": "https://itnext.io/angular-signals-the-future-of-angular-395a69e60062"
+            },
+            {
+                "title": "An Interactive Guide to Flexbox",
+                "thumbnailUrl": "https://www.joshwcomeau.com/images/interactive-guide-to-flexbox/flex-row.svg?v=6",
+                "url": "https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/"
+            },
+            {
+                "title": "SQLite Wasm in the browser backed by the Origin Private File System",
+                "thumbnailUrl": "https://wd.imgix.net/image/8WbTDNrhLsU0El80frMBGE4eMCD3/l5kRHOrUI9mQmwOTJKr7.jpg",
+                "url": "https://developer.chrome.com/blog/sqlite-wasm-in-the-browser-backed-by-the-origin-private-file-system/"
+            },
+            {
+                "title": "Create amazing patterns using CSS gradients",
+                "thumbnailUrl": "https://media.licdn.com/dms/image/sync/D4D27AQEsOFGhu6807w/articleshare-shrink_800/0/1683838043533?e=1685624400&v=beta&t=9Z10F64LnSB4tSf_ph5lOKI47l51jnlpJwogIyT2kTc",
+                "url": "https://www.youtube.com/watch?v=mXrBC_mZfTw"
+            },
+            {
+                "title": "Angular 16 is huge",
+                "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg",
+                "url": "https://itnext.io/angular-16-is-huge-67288a3ff58b"
+            }
+        ]
+    }
       
 ]

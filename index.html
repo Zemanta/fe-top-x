@@ -25,7 +25,7 @@
                 },
                 currentPage: Number(new URLSearchParams(window.location.search).get('page')) || 0,
                 async init() {
-                    this.data = await (await fetch('https://zemanta.github.io/fe-top-x/topx.json')).json();
+                    this.data = await (await fetch('./topx.json')).json();
                     this.setCurrentPresentation();
                 },
                 nextPage() {
